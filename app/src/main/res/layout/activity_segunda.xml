@@ -1,0 +1,39 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:paddingBottom="@dimen/activity_vertical_margin"
+    android:paddingLeft="@dimen/activity_horizontal_margin"
+    android:paddingRight="@dimen/activity_horizontal_margin"
+    android:paddingTop="@dimen/activity_vertical_margin"
+    tools:context="atmempresaconsultoria.livroandroid.com.appdengue.SegundaActivity">
+
+    <ImageView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:id="@+id/imageView2"
+        android:src="@drawable/logooutrasdoencas"
+        android:layout_alignParentTop="true"
+        android:layout_centerHorizontal="true" />
+
+    <ScrollView
+        android:layout_width="320dp"
+        android:layout_height="400dp"
+        android:id="@+id/scrollView2"
+        android:layout_below="@+id/imageView2"
+        android:layout_alignParentStart="true"
+        android:layout_marginTop="57dp"
+        android:background="#e9e7e7">
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:textAppearance="?android:attr/textAppearanceMedium"
+            android:text="Qual a origem do mosquito Aedes Aegypti?  O A. aegypti é originário do Egito. A dispersão pelo mundo ocorreu da África: primeiro da costa leste do continente para as Américas, depois da costa oeste para a Ásia.  Por que o nome Aedes Aegypti?  O vetor foi descrito cientificamente pela primeira vez em 1762, quando foi denominado Culex aegypti. Culex significa “mosquito” e aegypti, egípcio, portanto: mosquito egípcio. O gênero Aedes só foi descrito em 1818. Logo verificou- se que a espécie aegypti,  descrita anos antes, apresenta características morfológicas e biológicas semelhantes às de espécies do gênero Aedes – e não às do já conhecido gênero Culex. Então, foi estabelecido o nome Aedes aegypti.  Quantas pessoas um mosquito é capaz de infectar?  Os mosquitos fêmea sugam sangue para produzir ovos. Se o mosquito da dengue estiver infectivo, poderá transmitir o vírus da dengue neste processo. Em geral, mosquitos sugam uma só pessoa a cada lote de ovos que produzem. O mosquito da dengue tem uma peculiaridade que se chama “discordância gonotrófica”, que significa que é capaz de picar mais de uma pessoa para um mesmo lote de ovos que produz. Há relato de que um só mosquito da dengue infectivo transmitiu dengue para cinco pessoas de uma mesma família, no mesmo dia.  Por que só a fêmea pica?  A fêmea precisa de sangue para a produção de ovos. Tanto o macho quanto a fêmea se alimentam de substâncias que contêm açúcar (néctar, seiva, entre outros), mas como o macho não produz ovos, não necessita de sangue. Embora possam ocasionalmente se alimentar com sangue antes da cópula, as fêmeas intensificam a voracidade pela hematofagia após a fecundação, quando precisam ingerir sangue para realizar o desenvolvimento completo dos ovos e maturação nos ovários. Normalmente, três dias após a ingestão de sangue as fêmeas já estão aptas para a postura, passando então a procurar local para desovar.   Como o Aedes Aegypti chegou ao Brasil? Há registro histórico de dengue no passado?  As teorias mais aceitas indicam que o A. aegypti tenha se disseminado da África para o continente americano por embarcações que aportaram no Brasil para o tráfico de escravos. Há registro da ocorrência da doença em Curitiba (PR) no final do século 19 e em Niterói (RJ) no início do século 20.  A dengue ocorre só no Brasil?  Não. Há registro da doença em diversos países das Américas, bem como na África, Ásia, Austrália  e Polinésia Pacífica."
+            android:id="@+id/textView10"
+            android:padding="10dp"
+            android:textColor="#040404" />
+    </ScrollView>
+
+</RelativeLayout>

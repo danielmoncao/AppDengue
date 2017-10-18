@@ -1,0 +1,45 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:paddingBottom="@dimen/activity_vertical_margin"
+    android:paddingLeft="@dimen/activity_horizontal_margin"
+    android:paddingRight="@dimen/activity_horizontal_margin"
+    android:paddingTop="@dimen/activity_vertical_margin"
+    tools:context="atmempresaconsultoria.livroandroid.com.appdengue.TerceiraActivity">
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:textAppearance="?android:attr/textAppearanceLarge"
+        android:text="@string/sintomas"
+        android:id="@+id/textView11"
+        android:layout_alignParentTop="true"
+        android:layout_centerHorizontal="true"
+        android:layout_marginTop="32dp"
+        android:textColor="#050505"
+        android:textSize="50dp" />
+
+    <ScrollView
+        android:layout_width="320dp"
+        android:layout_height="400dp"
+        android:id="@+id/scrollView3"
+        android:layout_below="@+id/textView11"
+        android:layout_alignParentStart="true"
+        android:layout_marginTop="47dp" >
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:textAppearance="?android:attr/textAppearanceMedium"
+            android:text="O doente pode apresentar sintomas como febre, dor de cabeça, dores pelo corpo, náuseas ou até mesmo não apresentar qualquer sintoma. O aparecimento de manchas vermelhas na pele, sangramentos (nariz, gengivas), dor abdominal intensa e contínua e vômitos persistentes podem indicar a evolução para dengue hemorrágica. Esse é um quadro grave que necessita de imediata atenção médica, pois pode ser fatal.  É importante procurar orientação médica ao surgirem os primeiros sintomas, pois as manifestações iniciais podem ser confundidas com outras doenças, como febre amarela, malária ou leptospirose e não servem para indicar o grau de gravidade da doença."
+            android:id="@+id/textView12"
+            android:padding="10dp"
+            android:textColor="#040303"
+            android:background="#e1dede"
+            android:layout_alignTop="@+id/scrollView3"
+            android:layout_alignParentEnd="true" />
+    </ScrollView>
+
+</RelativeLayout>

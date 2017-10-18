@@ -1,0 +1,42 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:paddingBottom="@dimen/activity_vertical_margin"
+    android:paddingLeft="@dimen/activity_horizontal_margin"
+    android:paddingRight="@dimen/activity_horizontal_margin"
+    android:paddingTop="@dimen/activity_vertical_margin"
+    tools:context="atmempresaconsultoria.livroandroid.com.appdengue.QuintaActivity">
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:textAppearance="?android:attr/textAppearanceLarge"
+        android:text="@string/OutrasDoencas"
+        android:id="@+id/textView15"
+        android:layout_alignParentTop="true"
+        android:layout_centerHorizontal="true"
+        android:layout_marginTop="29dp"
+        android:textSize="40dp" />
+
+    <ScrollView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:id="@+id/scrollView5"
+        android:layout_below="@+id/textView15"
+        android:layout_alignParentStart="true"
+        android:layout_marginTop="55dp" >
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:textAppearance="?android:attr/textAppearanceMedium"
+            android:text="A zika também é uma doença viral e chegou ao Brasil em 2015. Seu nome foi dado em referência ao local em que o vírus foi identificado pela primeira vez: Floresta Zika, na Uganda.  Em relação aos sintomas, a zika apresenta-se muito mais branda do que a dengue e a chikungunya, uma vez que 80% dos pacientes não apresentam nenhuma manifestação clínica. Quando os sintomas aparecem, eles são febre baixa, dores leves nas articulações, manchas e coceira. Pode aparecer ainda vermelhidão nos olhos, inchaço pelo corpo, tosse e vômitos. Complicações graves são raras, entretanto, podem ocorrer.  A zika destaca-se pela sua associação com casos de microcefalia, uma malformação que faz com que o cérebro dos bebês não se desenvolva de maneira adequada. Além disso, a doença também está relacionada com a Síndrome de Guillain-Barré, que causa fraqueza muscular e paralisia dos músculos.  A zika é uma doença sem tratamento específico, sendo recomendado apenas o controle das dores e da coceira pelo corpo. Também é recomendado repouso e ingestão de líquidos.  → Febre Amarela  A febre amarela é uma doença grave causada por um vírus e transmitida por mosquitos. Em áreas florestais, o principal transmissor é o mosquito do gênero Haemagogus; na área urbana, o principal vetor é o Aedes aegypti. Vale destacar que a febre amarela urbana foi erradicada em 1942, entretanto, a forma silvestre ainda ocorre em nosso país. Diante dessa erradicação, a doença é pouco lembrada quando falamos das doenças transmitidas pelo A. aegypti.  A febre amarela provoca no paciente febre alta, cansaço, dores pelo corpo e de cabeça, náusea, vômitos e calafrios. Em casos mais graves da doença, o paciente pode desenvolver problemas no figado e no rim, hemorragias e icterícia (pele e olhos amarelados). A forma grave pode causar a morte.  A febre amarela também é uma doença que não possui tratamento. A recomendação é de repouso e ingestão de líquidos. Em casos graves, pode ser necessária a internação em UTI e reposição da perda sanguínea causada pela hemorragia."
+            android:id="@+id/textView16"
+            android:textColor="#060606"
+            android:padding="10dp"
+            android:background="#d9d6d6" />
+    </ScrollView>
+
+</RelativeLayout>

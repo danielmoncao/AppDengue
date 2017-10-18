@@ -1,0 +1,16 @@
+<resources>
+    <string name="app_name">AppDengue</string>
+    <string name="txto_sintomas">Sintomas</string>
+    <string name="texto_dengue">O Mosquito</string>
+    <string name="texto_logo">Aedes Aegypti</string>
+    <string name="texto_contagio">Contagio</string>
+    <string name="texto_tratamento">Tratamento</string>
+    <string name="texto_duvidas">Dúvidas</string>
+    <string name="texto_prevencao">Prevenção</string>
+    <string name="texto_outrasdoencas">Outras Doenças</string>
+    <string name="texto_pesquisa">Pesquisa</string>
+    <string name="sintomas">Sintomas</string>
+    <string name="contagio">Contagio</string>
+    <string name="OutrasDoencas">Outras Doenças</string>
+    <string name="prevencao">Prevenção</string>
+</resources>

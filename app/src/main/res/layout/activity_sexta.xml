@@ -1,0 +1,46 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:paddingBottom="@dimen/activity_vertical_margin"
+    android:paddingLeft="@dimen/activity_horizontal_margin"
+    android:paddingRight="@dimen/activity_horizontal_margin"
+    android:paddingTop="@dimen/activity_vertical_margin"
+    tools:context="atmempresaconsultoria.livroandroid.com.appdengue.SextaActivity">
+
+    <ImageView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:id="@+id/imageView4"
+        android:background="@drawable/logoprevencao"
+        android:layout_alignParentTop="true"
+        android:layout_centerHorizontal="true" />
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:textAppearance="?android:attr/textAppearanceLarge"
+        android:text="Prevenção"
+        android:id="@+id/textView8"
+        android:layout_below="@+id/imageView4"
+        android:layout_centerHorizontal="true"
+        android:layout_marginTop="28dp"
+        android:textSize="40dp" />
+
+    <ScrollView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:id="@+id/scrollView7"
+        android:layout_below="@+id/textView8"
+        android:layout_alignParentStart="true"
+        android:layout_marginTop="46dp" >
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:textAppearance="?android:attr/textAppearanceMedium"
+            android:text="Cuidados para Combater o Mosquito da Dengue Para combater o mosquito da dengue e evitar a sua picada, existem alguns cuidados que podem fazer toda a diferença, como: Manter as garrafas vazias ou baldes viradas para baixo;  Não deixar entulho no quintal ou nas ruas e varrer diariamente a água parada; Cobrir as caixas d&apos;água, poços ou piscinas e manter as calhas de água limpas; Colocar terra ou areia nos pratos dos vasos das planta; Manter a lata de lixo devidamente tampada e jogar no lixo cascas de coco, latas de refrigerantes, copo plástico, garrafas, embalagens, etc; Guardar pneus em locais cobertos, longe da chuva. Faça furos na parte de baixo ou entregue no serviço de limpeza; Tampar os ralos pouco usados com um plástico, jogando água sanitária no cano 2 vezes por semana; Diminuir o número de bebedouros de cães, gatos e passarinhos e manter o aquário limpo e fechado;  Colocar telas de proteção nas janelas e mosquiteiros na cama para dormir. Além disso, para se proteger é também recomendado usar repelente e calça comprida e sapato fechado, pois o mosquito da dengue tem o hábito de picar os pés e as pernas. Está também disponível no mercado a vacina Dengvaxia, que protege o corpo contra esta doença.  Estas dicas protegem não só da dengue, mas também de outras doenças como chinkungunya, febre amarela, Zika vírus ou encefalite japonesa, que são também transmitidas pela picada de mosquito."
+            android:id="@+id/textView9" />
+    </ScrollView>
+</RelativeLayout>
